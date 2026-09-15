@@ -1,6 +1,6 @@
 import React from "react";
-import { FaJava, FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiSpringboot, SiTailwindcss, SiMysql, SiPostman } from "react-icons/si";
+import { FaJava,FaPython, FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa";
+import { SiSpringboot,SiNumpy,SiPandas,SiDjango, SiTailwindcss, SiMysql, SiPostman } from "react-icons/si";
 
 const Skills = () => {
     const skillCategories = [
@@ -8,16 +8,20 @@ const Skills = () => {
             category: "Languages & Core",
             items: [
                 { name: "Java", icon: <FaJava style={{ color: "#007396" }} /> },
+                { name: "Python", icon: <FaPython style={{ color: "#3776AB" }} /> },
                 { name: "JavaScript", icon: <FaJsSquare style={{ color: "#F7DF1E" }} /> },
                 { name: "MySQL", icon: <SiMysql style={{ color: "#4479A1" }} /> },
                 { name: "HTML5 & CSS3", icon: <div style={{ display: "flex", gap: "4px" }}><FaHtml5 style={{ color: "#E34F26" }} /><FaCss3Alt style={{ color: "#1572B6" }} /></div> }
             ]
         },
         {
-            category: "Frameworks & Ecosystems",
+            category: "Frameworks, Ecosystems & Libraries",
             items: [
                 { name: "Spring Boot", icon: <SiSpringboot style={{ color: "#6DB33F" }} /> },
                 { name: "React.js", icon: <FaReact style={{ color: "#61DAFB" }} /> },
+                { name: "Numpy", icon: <SiNumpy style={{ color: "#61DAFB" }} /> },
+                { name: "Pandas", icon: <SiPandas style={{ color: "#61DAFB" }} /> },
+                { name: "Django", icon: <SiDjango style={{ color: "#61DAFB" }} /> },
                 { name: "Spring Security (JWT)", icon: <span style={{ fontSize: "0.8rem", fontWeight: "800", color: "#6DB33F" }}>JWT</span> },
                 { name: "Hibernate / JPA", icon: <span style={{ fontSize: "0.8rem", fontWeight: "800", color: "#b0b0b0" }}>JPA</span> }
             ]

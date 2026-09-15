@@ -6,7 +6,7 @@ const NavMenu = [
     { id: 3, title: 'Skills', link: "#skills" },
     { id: 4, title: 'Projects', link: "#projects" },
     { id: 5, title: 'Contact', link: "#contact" },
-    { id: 6, title: ' Download Resume', link: "/Software Engineer Intern - Sasaara Pamudi.pdf" },
+    { id: 6, title: ' Download Resume', link: "/Sasaara Pamudi Software_Engineer_Intern.pdf" },
 ];
 
 const Navbar = () => {
