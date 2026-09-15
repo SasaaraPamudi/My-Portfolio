@@ -49,7 +49,7 @@ const Navbar = () => {
                                 <li key={item.id}>
                                     <a
                                         href={item.link}
-                                        download={isResume ? "/Software Engineer Intern - Sasaara Pamudi.pdf" : undefined}
+                                        download={isResume ? "/Sasaara Pamudi Software_Engineer_Intern.pdf" : undefined}
                                         target={isResume ? "_blank" : undefined}
                                         rel={isResume ? "noopener noreferrer" : undefined}
                                         style={{
